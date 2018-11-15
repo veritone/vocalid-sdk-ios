@@ -19,9 +19,9 @@ class SDKViewController: UIViewController, UITableViewDataSource, UITableViewDel
     var engine: VOCTTSEngine?
     var player : AVAudioPlayer?
     
-    // to generate a token please visit
-    // https://portal.vocalid.ai/api/docs/index.html#authentication
-    var token: String = ""
+    // This app requires a bearer token to work
+    // To generate a new token please visit https://portal.vocalid.ai/api/docs/index.html#authentication
+    var token: String = "w4UsPuJ00vOOPBYEimY21c3NIPQXV7uuswb43XwycT"
     
     var greenColor = UIColor(red: 88/255.0, green: 192/255.0, blue: 164/255.0, alpha: 1)
     
